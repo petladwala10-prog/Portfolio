@@ -24,33 +24,32 @@ export default function Hero() {
         {/* Left Content */}
         <div className="flex flex-col gap-6 text-white">
           <div>
-            <p className="text-orange-200 font-semibold mb-2">Hey, I&apos;m a</p>
             <h2 className="text-5xl md:text-7xl font-bold leading-tight text-balance">
-              Creative Director
+              Graphic Designer & Digital Branding
             </h2>
           </div>
 
           <p className="text-lg text-orange-100 max-w-md">
-            Great design should feel invisible.
+            Helping brands stand out through creative design, engaging visuals, and strategic branding.
           </p>
 
           {/* Stats */}
           <div className="grid grid-cols-2 gap-4 mt-4">
             <div>
               <p className="text-2xl font-bold text-orange-300">#01</p>
-              <p className="text-sm text-orange-100">Brand Strategy</p>
+              <p className="text-sm text-orange-100">Logo & Brand Identity</p>
             </div>
             <div>
               <p className="text-2xl font-bold text-orange-300">#02</p>
-              <p className="text-sm text-orange-100">Brand Identity Design</p>
+              <p className="text-sm text-orange-100">Visual Design</p>
             </div>
             <div>
               <p className="text-2xl font-bold text-orange-300">#03</p>
-              <p className="text-sm text-orange-100">Packaging Design</p>
+              <p className="text-sm text-orange-100">Social Media Design</p>
             </div>
             <div>
               <p className="text-2xl font-bold text-orange-300">#04</p>
-              <p className="text-sm text-orange-100">Creative Direction</p>
+              <p className="text-sm text-orange-100">Brand Guidelines</p>
             </div>
           </div>
         </div>

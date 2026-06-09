@@ -25,10 +25,10 @@ export default function PortfolioGrid() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
           {/* Project Cards */}
           {[
-            { num: '#01', title: 'Strategy & Planning' },
-            { num: '#02', title: 'Design & Development' },
-            { num: '#03', title: 'Launch & Growth' },
-            { num: '#04', title: 'Ongoing Support' },
+            { num: '#01', title: 'Brand Identity Design' },
+            { num: '#02', title: 'Logo Design' },
+            { num: '#03', title: 'Packaging Design' },
+            { num: '#04', title: 'Digital Marketing Assets' },
           ].map((item, idx) => (
             <div
               key={idx}

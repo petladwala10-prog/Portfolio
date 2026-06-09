@@ -7,32 +7,32 @@ export default function PortfolioShowcase() {
     <section className="bg-black py-20 px-6 md:px-12">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Orange Blox */}
+          {/* Project 1 */}
           <div className="flex flex-col gap-4">
-            <div className="aspect-video bg-green-600 rounded-xl overflow-hidden flex items-center justify-center">
-              <p className="text-white text-sm">Orange Blox Image</p>
+            <div className="aspect-video bg-gradient-to-br from-purple-600 to-indigo-800 rounded-xl overflow-hidden flex items-center justify-center">
+              <p className="text-white text-sm">Brand Identity Design</p>
             </div>
-            <h3 className="text-2xl font-bold text-white">Orange Blox</h3>
+            <h3 className="text-2xl font-bold text-white">Modern Tech Startup</h3>
             <p className="text-gray-400">
-              The image shows flowing shapes in iridescent hues, from deep blues and purples to vibrant pinks and oranges, creating an ethereal effect.
+              Complete brand identity system including logo, color palette, typography, and comprehensive brand guidelines for a fast-growing tech company.
             </p>
             <button className="inline-flex items-center gap-2 bg-orange-500 text-white w-fit px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition">
-              View
+              View Case Study
               <ChevronRight className="w-4 h-4" />
             </button>
           </div>
 
-          {/* Nova Scene */}
+          {/* Project 2 */}
           <div className="flex flex-col gap-4">
-            <div className="aspect-video bg-pink-400 rounded-xl overflow-hidden flex items-center justify-center">
-              <p className="text-white text-sm">Nova Scene Image</p>
+            <div className="aspect-video bg-gradient-to-br from-pink-500 to-rose-600 rounded-xl overflow-hidden flex items-center justify-center">
+              <p className="text-white text-sm">Packaging & Product Design</p>
             </div>
-            <h3 className="text-2xl font-bold text-white">Nova Scene</h3>
+            <h3 className="text-2xl font-bold text-white">Premium Beauty Brand</h3>
             <p className="text-gray-400">
-              The image shows flowing shapes in iridescent hues, from deep blues and purples to vibrant pinks and oranges, creating an ethereal effect.
+              Luxury packaging design and brand refresh for a premium beauty product line, including product labels, boxes, and marketing materials.
             </p>
             <button className="inline-flex items-center gap-2 bg-orange-500 text-white w-fit px-4 py-2 rounded-full text-sm font-semibold hover:bg-orange-600 transition">
-              View
+              View Case Study
               <ChevronRight className="w-4 h-4" />
             </button>
           </div>

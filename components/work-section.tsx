@@ -18,16 +18,16 @@ export default function WorkSection() {
 
             {/* Content */}
             <div className="flex flex-col gap-6">
-              <p className="text-orange-500 font-semibold">Selected Work</p>
+              <p className="text-orange-500 font-semibold">Portfolio Showcase</p>
               <h3 className="text-4xl md:text-5xl font-bold text-white">
-                Projects
+                Beautiful Brands Begin Here
               </h3>
               <div>
                 <p className="text-gray-300 text-lg mb-4">
-                  Real brands, real results
+                  Compelling visual identities that tell your story
                 </p>
                 <p className="text-gray-400">
-                  Take a closer look at how strategy and design come together to build brands that connect and endure.
+                  Every design tells a story. From concept to execution, I create visually stunning brand identities that resonate with your target audience and establish lasting impressions.
                 </p>
               </div>
               <button className="inline-flex items-center gap-2 bg-white text-black w-fit px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">
@@ -43,13 +43,13 @@ export default function WorkSection() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             {/* Content */}
             <div className="flex flex-col gap-6 order-2 lg:order-1">
-              <p className="text-orange-500 font-semibold">Selected Work</p>
+              <p className="text-orange-500 font-semibold">Design Services</p>
               <h3 className="text-4xl md:text-5xl font-bold text-white">
-                Bringing Brands to Life Through Design
+                Strategic Visual Design Solutions
               </h3>
               <div>
                 <p className="text-gray-400">
-                  A curated collection of visual identities, packaging, and creative systems built for impact.
+                  Comprehensive branding and design services including logo design, brand guidelines, marketing materials, and digital assets that elevate your brand presence and create meaningful connections with your audience.
                 </p>
               </div>
               <button className="inline-flex items-center gap-2 bg-orange-500 text-white w-fit px-6 py-3 rounded-full font-semibold hover:bg-orange-600 transition">

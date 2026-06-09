@@ -22,15 +22,15 @@ export default function ExperienceSection() {
 
           {/* Content */}
           <div className="flex flex-col gap-6">
-            <p className="text-orange-500 font-semibold">Behind the Designs</p>
+            <p className="text-orange-500 font-semibold">Design Expertise</p>
             <h2 className="text-5xl md:text-6xl font-bold text-white text-balance">
-              Shaping Experiences That Make Life Simpler
+              Crafting Visual Stories That Inspire
             </h2>
             <p className="text-gray-300 text-lg">
-              I&apos;m a product designer focused on building clean, intuitive interfaces that solve real-world problems.
+              With expertise in graphic design, branding, and visual communication, I create designs that are both beautiful and effective.
             </p>
             <p className="text-gray-400">
-              Let&apos;s Build Something Meaningful Together
+              From concept to final execution, I focus on delivering exceptional design solutions that elevate your brand and engage your audience.
             </p>
             <button className="inline-flex items-center gap-2 bg-orange-500 text-white w-fit px-6 py-3 rounded-full font-semibold hover:bg-orange-600 transition">
               Get in touch

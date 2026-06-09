@@ -11,16 +11,16 @@ export default function AboutSection() {
           <div className="flex flex-col gap-6">
             <p className="text-orange-500 font-semibold">About me</p>
             <h2 className="text-5xl md:text-6xl font-bold text-white text-balance">
-              Designer. Strategist. Creative partner.
+              Graphic Designer. Brand Specialist. Digital Expert.
             </h2>
             <p className="text-gray-300 text-lg">
-              Blending clarity and creativity to build brands with purpose.
+              Creating compelling visual identities that make your brand unforgettable.
             </p>
             <p className="text-gray-400">
-              I&apos;m a freelance brand designer with 15 years of experience helping startups, creatives, and growing businesses build identities that feel like them. With a background in design, marketing, art direction, and brand strategy, I bring a balance of strategy and style to every project.
+              I&apos;m a passionate graphic designer with 8+ years of experience helping businesses, startups, and creative entrepreneurs develop stunning visual brands. My expertise spans logo design, brand identity systems, packaging design, and comprehensive digital marketing assets that connect emotionally with your target audience.
             </p>
             <p className="text-gray-400">
-              I bring a balance of strategy and style to every project. Whether it&apos;s your first brand or a refresh, I&apos;m here to guide you every step of the way.
+              Whether you&apos;re launching a new brand or refreshing an existing one, I combine strategic thinking with creative excellence to deliver designs that not only look beautiful but also drive results and build lasting brand loyalty.
             </p>
             <button className="inline-flex items-center gap-2 bg-orange-500 text-white w-fit px-6 py-3 rounded-full font-semibold hover:bg-orange-600 transition">
               Read more

@@ -7,9 +7,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-bold text-white mb-4">Folioblox</h3>
+            <h3 className="text-xl font-bold text-white mb-4">Design Studio</h3>
             <p className="text-gray-400 text-sm">
-              Creative director crafting beautiful brands and experiences.
+              Graphic designer specializing in brand identity, visual design, and digital branding solutions that help your business stand out.
             </p>
           </div>
 
@@ -35,7 +35,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-900 pt-8">
           <p className="text-gray-500 text-sm text-center">
-            © 2024 Folioblox. All rights reserved.
+            © 2024 Design Studio. All rights reserved. | Crafting beautiful brands, one design at a time.
           </p>
         </div>
       </div>
