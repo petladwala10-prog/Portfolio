@@ -10,8 +10,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Folioblox - Creative Director Portfolio',
-  description: 'Folioblox: Creative Director crafting beautiful brands and experiences',
+  title: 'hakimicreative',
+  description: 'hakimicreative crafting beautiful brands and experiences',
   generator: 'v0.app',
   icons: {
     icon: [
