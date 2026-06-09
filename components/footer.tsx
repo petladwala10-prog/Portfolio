@@ -8,8 +8,8 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src="/logo.png" alt="hakimicreative" className="h-8 w-8 object-contain" />
-              <h3 className="text-xl font-bold text-white">hakimicreative</h3>
+              <img src="/logo.png" alt="hakimicreative" className="h-10 w-10 object-contain" />
+              <h3 className="text-lg font-bold text-white">hakimicreative</h3>
             </div>
             <p className="text-gray-400 text-sm">
               Graphic designer specializing in brand identity, visual design, and digital branding solutions that help your business stand out.

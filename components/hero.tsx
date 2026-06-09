@@ -8,9 +8,9 @@ export default function Hero() {
     <section className="relative min-h-screen bg-gradient-to-b from-orange-600 via-orange-700 to-black overflow-hidden">
       {/* Header */}
       <header className="relative z-20 flex items-center justify-between px-6 py-8 md:px-12 md:py-10">
-        <div className="flex items-center gap-3">
-          <img src="/logo.png" alt="hakimicreative logo" className="h-12 w-12 object-contain" />
-          <span className="text-2xl font-bold text-white">hakimicreative</span>
+        <div className="flex items-center gap-2">
+          <img src="/logo.png" alt="hakimicreative logo" className="h-16 w-16 object-contain" />
+          <span className="text-lg font-bold text-white">hakimicreative</span>
         </div>
         <nav className="hidden md:flex items-center gap-8 text-white">
           <Link href="#about" className="hover:text-orange-400 transition">Home</Link>
