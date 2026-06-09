@@ -7,7 +7,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <h3 className="text-xl font-bold text-white mb-4">Design Studio</h3>
+            <div className="flex items-center gap-2 mb-4">
+              <img src="/logo.png" alt="hakimicreative" className="h-8 w-8 object-contain" />
+              <h3 className="text-xl font-bold text-white">hakimicreative</h3>
+            </div>
             <p className="text-gray-400 text-sm">
               Graphic designer specializing in brand identity, visual design, and digital branding solutions that help your business stand out.
             </p>
@@ -27,15 +30,15 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h4 className="text-white font-semibold mb-4">Get in Touch</h4>
-            <a href="mailto:hello@folioblox.com" className="text-orange-500 hover:text-orange-400 transition">
-              hello@folioblox.com
+            <a href="mailto:hello@hakimicreative.com" className="text-orange-500 hover:text-orange-400 transition">
+              hello@hakimicreative.com
             </a>
           </div>
         </div>
 
         <div className="border-t border-gray-900 pt-8">
           <p className="text-gray-500 text-sm text-center">
-            © 2024 Design Studio. All rights reserved. | Crafting beautiful brands, one design at a time.
+            © 2024 hakimicreative. All rights reserved. | Crafting beautiful brands, one design at a time.
           </p>
         </div>
       </div>
