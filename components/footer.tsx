@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
+            <div className="flex items-center gap-1 mb-4">
               <img src="/logo.png" alt="hakimicreative" className="h-10 w-10 object-contain" />
               <h3 className="text-lg font-bold text-white">hakimicreative</h3>
             </div>
