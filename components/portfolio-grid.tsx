@@ -25,21 +25,25 @@ export default function PortfolioGrid() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
           {/* Project Cards */}
           {[
-            { num: '#01', title: 'Brand Identity Design' },
-            { num: '#02', title: 'Logo Design' },
-            { num: '#03', title: 'Packaging Design' },
-            { num: '#04', title: 'Digital Marketing Assets' },
+            { num: '#01', title: 'Brand Identity Design', image: '/portfolio-01-brand.png' },
+            { num: '#02', title: 'Logo Design', image: '/portfolio-02-logo.png' },
+            { num: '#03', title: 'Packaging Design', image: '/portfolio-03-packaging.png' },
+            { num: '#04', title: 'Digital Marketing Assets', image: '/portfolio-04-marketing.png' },
           ].map((item, idx) => (
             <div
               key={idx}
-              className="aspect-square bg-gradient-to-br from-gray-800 to-black rounded-xl overflow-hidden hover:scale-105 transition-transform duration-300 flex items-center justify-center"
+              className="aspect-square bg-gradient-to-br from-gray-800 to-black rounded-xl overflow-hidden hover:scale-105 transition-transform duration-300 group relative"
             >
-              <div className="text-center">
-                <div className="w-20 h-20 mx-auto bg-orange-500/20 rounded-lg flex items-center justify-center mb-4">
-                  <div className="w-16 h-16 bg-orange-600/30 rounded"></div>
+              <img 
+                src={item.image} 
+                alt={item.title}
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                <div className="text-center">
+                  <p className="text-orange-500 font-bold mb-2">{item.num}</p>
+                  <p className="text-white text-sm">{item.title}</p>
                 </div>
-                <p className="text-orange-500 font-bold mb-2">{item.num}</p>
-                <p className="text-white text-sm">{item.title}</p>
               </div>
             </div>
           ))}

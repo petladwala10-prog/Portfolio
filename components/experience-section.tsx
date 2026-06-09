@@ -9,14 +9,14 @@ export default function ExperienceSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Image */}
           <div className="grid grid-cols-3 gap-4">
-            <div className="aspect-square bg-gray-800 rounded-lg overflow-hidden flex items-center justify-center">
-              <p className="text-gray-600 text-xs text-center">Product 1</p>
+            <div className="aspect-square bg-gray-800 rounded-lg overflow-hidden">
+              <img src="/product-01.png" alt="Designer workspace" className="w-full h-full object-cover" />
             </div>
-            <div className="aspect-square bg-gray-800 rounded-lg overflow-hidden flex items-center justify-center">
-              <p className="text-gray-600 text-xs text-center">Product 2</p>
+            <div className="aspect-square bg-gray-800 rounded-lg overflow-hidden">
+              <img src="/product-02.png" alt="Brand design process" className="w-full h-full object-cover" />
             </div>
-            <div className="aspect-square bg-gray-800 rounded-lg overflow-hidden flex items-center justify-center">
-              <p className="text-gray-600 text-xs text-center">Product 3</p>
+            <div className="aspect-square bg-gray-800 rounded-lg overflow-hidden">
+              <img src="/product-03.png" alt="Design studio" className="w-full h-full object-cover" />
             </div>
           </div>
 

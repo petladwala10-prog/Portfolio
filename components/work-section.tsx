@@ -10,10 +10,8 @@ export default function WorkSection() {
         <div className="mb-20">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             {/* Image */}
-            <div className="relative h-96 rounded-xl overflow-hidden bg-gradient-to-br from-teal-600 via-cyan-500 to-orange-600 flex items-center justify-center">
-              <div className="text-center text-white">
-                <p className="text-sm opacity-75">Featured Image</p>
-              </div>
+            <div className="relative h-96 rounded-xl overflow-hidden bg-gradient-to-br from-teal-600 via-cyan-500 to-orange-600">
+              <img src="/featured-brand.png" alt="Beautiful brand design" className="w-full h-full object-cover" />
             </div>
 
             {/* Content */}
@@ -59,10 +57,8 @@ export default function WorkSection() {
             </div>
 
             {/* Image */}
-            <div className="relative h-96 rounded-xl overflow-hidden bg-gradient-to-br from-orange-400 to-red-600 flex items-center justify-center order-1 lg:order-2">
-              <div className="text-center text-white">
-                <p className="text-sm opacity-75">Featured Project</p>
-              </div>
+            <div className="relative h-96 rounded-xl overflow-hidden bg-gradient-to-br from-orange-400 to-red-600 order-1 lg:order-2">
+              <img src="/design-services.png" alt="Design services" className="w-full h-full object-cover" />
             </div>
           </div>
         </div>

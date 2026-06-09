@@ -9,8 +9,8 @@ export default function PortfolioShowcase() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Project 1 */}
           <div className="flex flex-col gap-4">
-            <div className="aspect-video bg-gradient-to-br from-purple-600 to-indigo-800 rounded-xl overflow-hidden flex items-center justify-center">
-              <p className="text-white text-sm">Brand Identity Design</p>
+            <div className="aspect-video bg-gradient-to-br from-purple-600 to-indigo-800 rounded-xl overflow-hidden">
+              <img src="/case-tech-startup.png" alt="Modern Tech Startup" className="w-full h-full object-cover" />
             </div>
             <h3 className="text-2xl font-bold text-white">Modern Tech Startup</h3>
             <p className="text-gray-400">
@@ -24,8 +24,8 @@ export default function PortfolioShowcase() {
 
           {/* Project 2 */}
           <div className="flex flex-col gap-4">
-            <div className="aspect-video bg-gradient-to-br from-pink-500 to-rose-600 rounded-xl overflow-hidden flex items-center justify-center">
-              <p className="text-white text-sm">Packaging & Product Design</p>
+            <div className="aspect-video bg-gradient-to-br from-pink-500 to-rose-600 rounded-xl overflow-hidden">
+              <img src="/case-beauty-brand.png" alt="Premium Beauty Brand" className="w-full h-full object-cover" />
             </div>
             <h3 className="text-2xl font-bold text-white">Premium Beauty Brand</h3>
             <p className="text-gray-400">
