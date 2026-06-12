@@ -1,22 +1,26 @@
 import Hero from '@/components/hero'
+import AboutMe from '@/components/about-me'
 import PortfolioGrid from '@/components/portfolio-grid'
+import Services from '@/components/services'
 import WorkSection from '@/components/work-section'
-import AboutSection from '@/components/about-section'
-import ExperienceSection from '@/components/experience-section'
-import PricingSection from '@/components/pricing-section'
-import PortfolioShowcase from '@/components/portfolio-showcase'
+import Testimonials from '@/components/testimonials'
+import WhyWorkWithMe from '@/components/why-work-with-me'
+import FAQ from '@/components/faq'
+import Contact from '@/components/contact'
 import Footer from '@/components/footer'
 
 export default function Home() {
   return (
     <main className="bg-background">
       <Hero />
+      <AboutMe />
+      <Services />
       <PortfolioGrid />
       <WorkSection />
-      <AboutSection />
-      <ExperienceSection />
-      <PricingSection />
-      <PortfolioShowcase />
+      <Testimonials />
+      <WhyWorkWithMe />
+      <FAQ />
+      <Contact />
       <Footer />
     </main>
   )
